@@ -3,24 +3,24 @@
         overflow-x: hidden;
     }
 
-        body .container {
-            flex-wrap: wrap;
-            flex-direction: row;
-        }
+    body .container {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
 
 
-body .container .first {
-width: 100%;
-text-align: center;
-background: none;
-}
+    body .container .first {
+        width: 100%;
+        text-align: center;
+        background: none;
+    }
 
 body .container .first .hr {
-background-color: #343843;
-width: 100%;
-border-left: none;
-border-right: none;
-}
+    background-color: #343843;
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    }
 
 body .container .first .hr h4 {
     font-size: 20px;
@@ -64,12 +64,12 @@ body .container .first .sub-one .profile-name {
 }
 
 body .container .first .sub-two {
-display: none;
+    display: none;
 }
 
 body .container .second {
-width: 100%;
-height: 400px;
+    width: 100%;
+    height: 400px;
 }
 
 body .container .second .btn-box {
@@ -85,7 +85,7 @@ body .container .second .btn-box #new {
 }
 
 body .container .second .textarea-box {
-height: 80%;
+    height: 80%;
 }
 
 body .container .second .textarea-box textarea {
@@ -95,29 +95,29 @@ body .container .second .textarea-box textarea {
 }
 
 body .container .note-select {
-width: 100%;
-overflow: visible;
+    width: 100%;
+    overflow: visible;
 }
 
 body .container .note-select .search-form {
-margin-top: 0.5em;
-margin-bottom: 0.3em;
-width: 85%;
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+    width: 85%;
 }
 
 body .container .note-select form.search-form input[type=text] {
-width: 93%;
-font-size: 15px;
+    width: 93%;
+    font-size: 15px;
 }
 
 body .container .note-select form.search-form button {
-width: 7%;
-font-size: 13px;
-padding: 6px;
+    width: 7%;
+    font-size: 13px;
+    padding: 6px;
 }
 
 body .container .note-select #display-note {
-overflow-y: visible;
+    overflow-y: visible;
 }
 
 body .container .note-select #display-note #display-box {
