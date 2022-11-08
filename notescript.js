@@ -364,6 +364,30 @@ function deleteNote(n) {
     displayNote.removeChild(newNote.parentNode.parentNode);
 }
 
+//////////////////////////////////////////////////////
+////
+document.getElementById("menu").addEventListener('click', function () {
+
+
+    let sub = document.getElementById("sub-one");
+    //sub.style.display = "block";
+
+    if (sub.style.display === "block") {
+        sub.style.display = "none";
+        document.getElementById("first").style.height = "48px";
+
+
+    }
+    else {
+
+        sub.style.display = "block";
+        document.getElementById("first").style.height = "200px";
+
+    }
+
+
+})
+
 ////////////////////////////////////////////////////////////
 
 document.getElementById("search").addEventListener('keyup', filterSearch);
