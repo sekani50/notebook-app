@@ -374,7 +374,7 @@ document.getElementById("menu").addEventListener('click', function () {
 
     if (sub.style.display === "block") {
         sub.style.display = "none";
-        document.getElementById("first").style.height = "48px";
+        //document.getElementById("first").style.height = "px";
 
 
     }
