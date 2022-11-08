@@ -121,7 +121,7 @@ overflow-y: visible;
 body .container .note-select #display-note #display-box {
     width: 85%;
     font-size: 13px;
-    height: 17%;
+    height: 25%;
 }
 
 body .container .note-select #display-note #new-note {
