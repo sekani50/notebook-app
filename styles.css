@@ -11,6 +11,7 @@
 
     body .container .first {
         width: 100%;
+        height:50px;
         text-align: center;
         background: none;
     }
@@ -97,10 +98,10 @@ body .container .second .textarea-box textarea {
 body .container .note-select {
     width: 100%;
     overflow: visible;
+    margin-top:0
 }
 
 body .container .note-select .search-form {
-    margin-top: 0.5em;
     margin-bottom: 0.3em;
     width: 85%;
 }
@@ -123,7 +124,7 @@ body .container .note-select #display-note {
 body .container .note-select #display-note #display-box {
     width: 85%;
     font-size: 13px;
-    height: 25%;
+    height: 35%;
 }
 
 body .container .note-select #display-note #new-note {
