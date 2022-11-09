@@ -1,11 +1,11 @@
 ﻿@media (max-width:900px) {
     html, body {
-        overflow-x: hidden;
+        
     }
 
     body .container {
         flex-wrap: wrap;
-        flex-direction: row;
+        flex-direction: column;
     }
 
 
@@ -124,7 +124,7 @@ body .container .note-select #display-note {
 body .container .note-select #display-note #display-box {
     width: 85%;
     font-size: 13px;
-    height: 35%;
+    height: 40%;
 }
 
 body .container .note-select #display-note #new-note {
