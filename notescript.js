@@ -395,6 +395,8 @@ document.getElementById("menu").addEventListener('click', function () {
 document.getElementById("search").addEventListener('keyup', filterSearch);
 
 function filterSearch() {
+    
+    document.getElementById("container").style.flexDirection = "revert";
 
 
     let note = document.querySelectorAll("#display-box");
