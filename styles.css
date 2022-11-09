@@ -92,7 +92,7 @@ body .container .second .textarea-box {
 body .container .second .textarea-box textarea {
     padding: 2px 10px 2px 3em;
     font-size: 12px;
-    opacity: 0.6;
+    opacity: 1;
 }
 
 body .container .note-select {
