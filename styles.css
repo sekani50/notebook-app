@@ -97,12 +97,12 @@ body .container .second .textarea-box textarea {
 
 body .container .note-select {
     width: 100%;
-    overflow: visible;
+    overflow: auto;
     
 }
 
 body .container .note-select .search-form {
-    margin-top:0.5em;
+    margin-top:1.2em;
     margin-bottom: 0.3em;
     width: 85%;
 }
