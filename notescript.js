@@ -375,7 +375,7 @@ document.getElementById("menu").addEventListener('click', function () {
     if (sub.style.display === "block") {
         sub.style.display = "none";
         document.getElementById("first").style.height = "50px";
-        document.getElementById("container").style.flexDirection = "column";
+        
 
 
     }
@@ -383,8 +383,7 @@ document.getElementById("menu").addEventListener('click', function () {
 
         sub.style.display = "block";
         document.getElementById("first").style.height = "200px";
-        document.getElementById("container").style.flexDirection = "revert";
-
+        
     }
 
 
@@ -396,7 +395,7 @@ document.getElementById("search").addEventListener('keyup', filterSearch);
 
 function filterSearch() {
     
-    document.getElementById("container").style.flexDirection = "revert";
+    
 
 
     let note = document.querySelectorAll("#display-box");
