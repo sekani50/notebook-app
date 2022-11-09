@@ -114,17 +114,18 @@ body .container .note-select form.search-form input[type=text] {
 body .container .note-select form.search-form button {
     width: 7%;
     font-size: 13px;
-    padding: 6px;
+    padding: 5px;
 }
 
 body .container .note-select #display-note {
-    overflow-y: visible;
+    overflow: auto;
+    margin-bottom:3em;
 }
 
 body .container .note-select #display-note #display-box {
     width: 85%;
     font-size: 13px;
-    height: 40%;
+    height: 35%;
 }
 
 body .container .note-select #display-note #new-note {
